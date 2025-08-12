@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ site.title }}</h1>
+      <h2 class="project-tagline">{{ site.description }}</h2>
+    </header>
+
+    <!-- ここからナビゲーション -->
+    <nav class="site-nav" style="text-align:center; margin: 20px 0;">
+      <a href="{{ '/' | relative_url }}">ホーム</a> |
+      <a href="{{ '/about' | relative_url }}">運営者紹介</a> |
+      <a href="{{ '/code_of_conduct' | relative_url }}">コミュニティ行動規範</a> |
+      <a href="https://forms.gle/a4pDWXvkFKJga9HL8">お問い合わせ</a>
+    </nav>
+    <!-- ここまでナビゲーション -->
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-credits">
+          Powered by <a href="https://pages.github.com">GitHub Pages</a> &amp; Cayman theme.
+        </span>
+      </footer>
+    </main>
+  </body>
+</html>

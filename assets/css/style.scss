@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+  background: linear-gradient(120deg, #1E2A38, #2B4C7E);
+  color: white;
+}
+
+.page-header .project-name,
+.page-header .project-tagline {
+  color: white;
+}
