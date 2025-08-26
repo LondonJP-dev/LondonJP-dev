@@ -11,3 +11,8 @@ url: "https://LondonJP-dev.github.io" # the base hostname & protocol for your si
 
 sass:
   style: compressed
+
+collections:
+  articles:
+    output: true
+    permalink: /articles/:name/
