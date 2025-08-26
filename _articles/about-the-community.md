@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 当勉強会について
+title: コミュニティについて
 permalink: /articles/about-the-community.html
 ---
 
@@ -8,7 +8,7 @@ permalink: /articles/about-the-community.html
 
 ---
 
-# 当勉強会について
+# 当コミュニティについて
 ## 目的
 LondonTechJPは、イギリス在住の日本人エンジニアを対象としたネットワーキンググループです。
 日本人エンジニア同士が交流し、知識を共有できる場を提供することを目的としています。
